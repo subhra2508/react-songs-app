@@ -21,9 +21,6 @@ class SongList extends React.Component{
 }
 
 
-
-
-
 const mapStateToProps = (state) => {
     return {songs:state.songs};
 }
